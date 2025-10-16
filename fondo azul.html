@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-       <meta charset="utf-8">
+<meta charset="utf-8">
 
 <head>
-        <meta charset="utf-8">
-        
-        
-        <title>Ejemplo de párrafo rojo y centrado</title>
+    <meta charset="utf-8">
 
-        <style>
-            .rojo{
-                color: rgb(71, 27, 27);
-                text-align: center;
-            }
-             .azul{
-                color: rgb(156, 123, 123);
-                text-align: center;
-            }
-             .fondoPlata{
-                color: rgb(124, 107, 107);
-                text-align: center;
-            }
 
-             .luica{
-                color: rgb(71, 51, 51);
- }
-        </style>
+    <title>Ejemplo de párrafo rojo y centrado</title>
 </head>
-    <body>
-       
-        <p>texto centrado sobre fondo de color plata.</p>
-        <p>texto aliniado .</p>
-        <p><b>texto centrado sode color plata.</p></b>
-        
-    </body>
-<head> 
-</head>
+
+<body>
+    <p class="textocentrado">Texto <span class="textocentradorojo">Centrado</span></p>
+    <p class="fondoPlata">centrado sobre fondo de color plata.</p>
+    <p class="textoderecha">Texto <span class="textocentradorojo"> alineado</span> a la derecha.</p>
+    <p class="fondoPlata"> centrado sobre color plata.</p>
+
+</body>
+
+<style>
+    .textocentrado {
+        text-align: center;
+        color: rgb(23, 20, 194);
+
+    }
+    .textocentradorojo {
+        color: red;
+    }
+
+    .fondoPlata {
+        background-color: silver;
+        color:blue;
+        text-align: center;
+
+    }
+
+    body {
+        background: aqua;
+    }
+
+    .textoderecha{
+        text-align: right;
+        color:blue;
+        font-size:20px;
+        font-family:verdana;
+
+    }
+
+    .tamaño20px {
+        font-size: 20px;
+    }
+
+    .verdana {
+        font-family: verdana;
+
+    }
+</style>
+
 </html>
